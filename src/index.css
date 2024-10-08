@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+.bg-blur {
+  background: rgba(28, 29, 32, 0.5);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+}
+.modal-blur {
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+input::placeholder {
+  color: #7f8184;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+  border-radius: 50px;
+  height: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #1d2024;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #9d40db;
+  border-radius: 50px;
+}
